@@ -18,7 +18,7 @@ int binaryToDecimalFn(int n) {
 
 int main() {
     cout << "Enter a binary: ";
-    int n;
-    cin >> n;
+    int n = 01101;
+    // cin >> n;
     cout << binaryToDecimalFn(n) << endl;
 }

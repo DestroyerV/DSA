@@ -4,41 +4,50 @@
 
 - ### Bitwise `&`
 
-0 & 0 = 0
-0 & 1 = 0
-1 & 0 = 0
-1 & 1 = 1
+        0 & 0 = 0
 
-eg: 4 = 100, 8 = 1000 then 4 & 8 = 0000
+        0 & 1 = 0
+
+        1 & 0 = 0
+
+        1 & 1 = 1
+
+    **eg:** 4 = 100, 8 = 1000 then 4 & 8 = 0000
 
 - ### Bitwise `|`
 
-0 | 0 = 0
-0 | 1 = 1
-1 | 0 = 1
-1 | 1 = 1
+        0 | 0 = 0
 
-eg: 4 = 100, 8 = 1000 then 4 | 8 = 1100 = 12
+        0 | 1 = 1
+
+        1 | 0 = 1
+
+        1 | 1 = 1
+
+    **eg:** 4 = 100, 8 = 1000 then 4 | 8 = 1100 = 12
 
 - ### Bitwise `^` (XOR)
 
-0 ^ 0 = 0
-0 ^ 1 = 1
-1 ^ 0 = 1
-1 ^ 1 = 0
+        0 ^ 0 = 0
 
-eg: 4 = 100, 8 = 1000 then 4 ^ 8 = 1100 = 12
+        0 ^ 1 = 1
+
+        1 ^ 0 = 1
+
+        1 ^ 1 = 0
+
+    **eg:** 4 = 100, 8 = 1000 then 4 ^ 8 = 1100 = 12
 
 - ### Bitwise `<<`
 
-eg: 4 = 100, 1 = 1 then 4 << 1 = 1000 = 8
+    **eg:** 4 = 100, 1 = 1 then 4 << 1 = 1000 = 8
 
-Trick: ans = a*2^b
-ans = 4*2^1 = 8
+        Trick: ans = a*2^b
+        ans = 4*2^1 = 8
 
 - ### Bitwise `>>`
 
-eg: 4 = 100, 1 = 1 then 4 >> 1 = 10 = 2
+    **eg:** 4 = 100, 1 = 1 then 4 >> 1 = 10 = 2
 
 ## Operator Precendence
 
@@ -103,26 +112,34 @@ This is the key part of the function. Here's what it does:
 
 1. Binary Representation of Powers of 2: Powers of 2 have a unique property in their binary representation. In binary:
 
-1 is 0001
-2 is 0010
-4 is 0100
-8 is 1000
+        1 is 0001
 
-Notice that only one bit is set to 1, and all other bits are 0.
+        2 is 0010
 
-2. Subtracting 1 from a Power of 2: When you subtract 1 from a power of 2, all the bits after the only set bit (the 1) will flip. For example:
-   4 (binary: 0100) − 1 = 3 (binary: 0011)
-   8 (binary: 1000) − 1 = 7 (binary: 0111)
+        4 is 0100
 
-So, subtracting 1 from a power of 2 flips all the bits to the right of the set bit, including the set bit itself.
+        8 is 1000
+
+    Notice that only one bit is set to 1, and all other bits are 0.
+
+2. Subtracting 1 from a Power of 2: When you subtract 1 from a power of 2, all the bits after the only set bit (the 1) will flip.
+
+    For example:
+
+        4 (binary: 0100) − 1 = 3 (binary: 0011)
+
+        8 (binary: 1000) − 1 = 7 (binary: 0111)
+
+    So, subtracting 1 from a power of 2 flips all the bits to the right of the set bit, including the set bit itself.
 
 3. Bitwise AND Operation (&): The bitwise AND operation compares corresponding bits of two numbers and results in 1 only if both bits are 1; otherwise, it results in 0.
 
-For a power of 2 (n) and n - 1, the bitwise AND will always be 0 because:
-The original number n has only one bit set to 1.
-The number n - 1 has all bits to the right of that bit flipped to 1, and the original bit set to 0.
+    For a power of 2 (n) and n - 1, the bitwise AND will always be 0 because:
 
-Therefore, performing n & (n - 1) will result in 0.
+    The original number n has only one bit set to 1.
+    The number n - 1 has all bits to the right of that bit flipped to 1, and the original bit set to 0.
+
+    Therefore, performing n & (n - 1) will result in 0.
 
 Q. Reverse a integer.
 

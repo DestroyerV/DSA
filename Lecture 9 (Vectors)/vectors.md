@@ -1,6 +1,6 @@
 # vector
 
-vector ia a dynamic array provided bt the Standard Template library **(STL)** that can grow and shrink in size.
+vector ia a dynamic array provided by the Standard Template library **(STL)** that can grow and shrink in size.
 
 ## Declaration
 

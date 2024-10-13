@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-vector<int> vec{-2, 1, -3, 4, -1, 2, 1, -5, 4};
+vector<int> vec{3, 5, 1, 4, 2};
 int n = vec.size();
 
 void printSubArray()
@@ -60,12 +60,12 @@ void kadanAlgo()
 
 int main()
 {
-    cout << "All Sub Arrays: " << endl;
-    printSubArray();
+    // cout << "All Sub Arrays: " << endl;
+    // printSubArray();
 
-    cout << "Max sum of sub arrays: ";
-    bruteForceMaxSum();
+    // cout << "Max sum of sub arrays: ";
+    // bruteForceMaxSum();
 
-    cout << "Optimized: ";
+    std::cout << "Optimized: ";
     kadanAlgo();
 }
