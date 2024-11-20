@@ -45,7 +45,8 @@ v1.erase(v1.begin());   // Removes the first element
 
 Memory for the Array is allocated at the compile time that's why arrays can not expand and shrink in size and also arrays are stored in **stacks** memory. While vector is allocated while runtime it is stored in **heap** memory.
 
-Evey Time when the size of vector is not enough to add more elements in it and you try to add an element the the size of the vector becomes double.
+Every Time when the size of vector is not enough to add more elements in it and you try to add an element the the size of the vector becomes double.
 
 ```cpp
 v1.push_back(0);
+```

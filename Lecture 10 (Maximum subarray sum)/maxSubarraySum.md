@@ -22,9 +22,7 @@ A subarray always takes a "slice" from the array without skipping elements betwe
 
 For an array of size `n`, the total number of possible subarrays is given by:
 
-\[
-\text{Number of subarrays} = \frac{n(n+1)}{2}
-\]
+$\text{Number of subarrays} = \frac{n(n+1)}{2}$
 
 ---
 

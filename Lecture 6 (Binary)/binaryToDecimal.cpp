@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int binaryToDecimalFn(int n) {
+int binaryToDecimalFn(int n)
+{
     int ans = 0;
     int power = 1;
 
-    while(n > 0)
+    while (n > 0)
     {
         int rem = n % 10;
         n /= 10;
@@ -16,7 +17,8 @@ int binaryToDecimalFn(int n) {
     return ans;
 }
 
-int main() {
+int main()
+{
     cout << "Enter a binary: ";
     int n = 01101;
     // cin >> n;

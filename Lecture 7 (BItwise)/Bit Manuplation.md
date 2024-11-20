@@ -37,6 +37,7 @@
         1 ^ 1 = 0
 
     **eg:** 4 = 100, 8 = 1000 then 4 ^ 8 = 1100 = 12
+  - It can also be used to add two numbers.
 
 - ### Bitwise `<<`
 

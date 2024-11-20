@@ -5,7 +5,6 @@
 // 3/2 --> Q = 1, rem = 1
 // Binary is 10
 
-
 #include <iostream>
 using namespace std;
 
