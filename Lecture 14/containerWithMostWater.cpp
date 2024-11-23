@@ -1,7 +1,7 @@
+// LC 11
+
 #include <iostream>
 using namespace std;
-
-// LC 11
 
 int bruteforce(int heights[], int n) // O(n^2)
 {

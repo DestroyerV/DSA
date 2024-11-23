@@ -24,7 +24,11 @@ int *bruteforce(int nums[], int n)
 
 int *optimal(int nums[], int n)
 {
-    int *ans[4] = {1, 1, 1, 1};
+    int *ans = new int[n];
+    for (int i = 0; i < n; i++)
+    {
+        ans[i] = 1;
+    }
 
     for (int i = 1; i < n; i++)
     {
@@ -32,10 +36,10 @@ int *optimal(int nums[], int n)
     }
 
     int suffix = 1;
-    for (int i = n - 2; i >= 0; i++)
+    for (int i = n - 1; i >= 0; i--)
     {
-        suffix *= nums[i + 1];
         ans[i] *= suffix;
+        suffix *= nums[i];
     }
 
     return ans;

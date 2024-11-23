@@ -1,0 +1,5 @@
+# Ignore all executable files generated from .cpp files
+*.exe
+*.out
+*.o
+*.obj

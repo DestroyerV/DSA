@@ -32,10 +32,10 @@
 
     **Example:** Merge sort or quicksort (in the average case).
 
-5. **O(n²) (Quadratic Time):** The algorithm's runtime grows quadratically with the input size.
+5. **O($n^2$) (Quadratic Time):** The algorithm's runtime grows quadratically with the input size.
         **Example:** Nested loops, such as bubble sort.
 
-6. **O(2^n) (Exponential Time):** The algorithm's runtime doubles with every additional element in the input.
+6. **O($2^n$) (Exponential Time):** The algorithm's runtime doubles with every additional element in the input.
 
     **Example:** Recursive algorithms that solve problems by exploring all subsets (like the Fibonacci sequence via recursion).
 
