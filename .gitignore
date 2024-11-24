@@ -3,3 +3,16 @@
 *.out
 *.o
 *.obj
+
+# Ignore executables without extensions
+# Assuming executables are in the same directory as the source files
+# and have the same name as the source files without the .cpp extension
+# Example: main.cpp -> main
+*.[!.]*
+
+# Ignore executables in subdirectories
+**/[!.]*
+
+# Allow source files
+!*.cpp
+!*.h
