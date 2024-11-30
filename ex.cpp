@@ -1,11 +1,9 @@
+#include <vector>
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int a = 10;
-    int *ptr = &a;
-    cout << ptr << "  ";
-    ptr++;
-    cout << ptr << a << endl;
+int main() {
+    vector<int> v = {1};
+    int mid = v.size() / 2;
+    cout << v[0 + 1] << endl;
 }
