@@ -1,18 +1,17 @@
-# Ignore all executable files generated from .cpp files
-*.exe
-*.out
-*.o
-*.obj
+# Allow everything
+*
 
-# Ignore executables without extensions
-# Assuming executables are in the same directory as the source files
-# and have the same name as the source files without the .cpp extension
-# Example: main.cpp -> main
-*.[!.]*
-
-# Ignore executables in subdirectories
+# Exclude files without extensions in all directories and subdirectories
 **/[!.]*
+**/
 
-# Allow source files
-!*.cpp
-!*.h
+# But allow files with extensions
+!*.*
+
+# Allow directories
+!*/
+
+# Specific exceptions if needed (uncomment and modify as necessary)
+!.gitignore
+!README.md
+!LICENSE
