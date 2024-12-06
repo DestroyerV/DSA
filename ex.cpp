@@ -1,9 +1,30 @@
-#include <vector>
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() {
-    vector<int> v = {1};
-    int mid = v.size() / 2;
-    cout << v[0 + 1] << endl;
+string check(string input)
+{
+    string result = "hello";
+    int j = 0;
+    for (char c : input)
+    {
+        if (c == result[j])
+        {
+            j++;
+        }
+        if (j == result.size())
+        {
+            return "YES";
+        }
+    }
+    return "NO";
+}
+
+int main()
+{
+    string input;
+    cout << "Give Input: ";
+    cin >> input;
+    cout << check(input) << endl;
+    return 0;
 }
