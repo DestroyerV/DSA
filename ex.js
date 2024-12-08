@@ -1,13 +1,4 @@
-function decimalToBinary(num) {
-  let power = 1;
-  let ans;
-  while (num > 0) {
-    let rem = num % 2;
-    num = Math.floor(num / 2);
-    ans += rem * power;
-    power *= 10;
-  }
-  return ans;
-}
-
-console.log(decimalToBinary(10));
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+let c = a.concat(b);
+console.log(c);
