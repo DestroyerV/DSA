@@ -52,5 +52,14 @@
     "typeinfo": "cpp",
     "variant": "cpp"
   },
-  "cSpell.words": ["subarray", "subarrays"]
+  "cSpell.words": [
+    "boolalpha",
+    "cerr",
+    "cout",
+    "Deque",
+    "endl",
+    "rbegin",
+    "subarray",
+    "subarrays"
+  ]
 }
