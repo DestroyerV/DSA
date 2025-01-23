@@ -30,7 +30,7 @@ vector<int> vec2(vec); // make vec2 exactly as vec.
 
 ```cpp
 vector<int> vec = {1,2,3};
-vec.siz(); //3
+vec.size(); //3
 ```
 
 **II. capacity( ):**  returns the number of elements that the vector can hold before it needs to allocate more memory. This is different from .size(), which returns the number of elements currently in the vector. The capacity is always greater than or equal to the size.
