@@ -1,29 +1,28 @@
-# 📚 DSA - Data Structures and Algorithms Web Platform
+# 📚 DSA - My Data Structures and Algorithms Practice Repository
 
-[![License](https://img.shields.io/badge/license-TBD-blue.svg)](#license)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.6-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.1.0-blue)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC)](https://tailwindcss.com)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
-[![Code Coverage](https://img.shields.io/badge/coverage-TBD-red)](#)
 
-> A modern, interactive web platform for exploring and learning Data Structures and Algorithms with comprehensive C++ implementations, built with Next.js and TypeScript.
+> My personal Data Structures and Algorithms practice repository converted into a modern web interface for easy code browsing and sharing, built with Next.js and TypeScript.
 
 ## 🚀 Project Overview
 
-**DSA** is a comprehensive web-based learning platform that showcases a curated collection of Data Structures and Algorithms implementations. The platform provides an intuitive interface to browse, search, and study various DSA concepts with well-documented C++ code examples.
+**DSA** started as my personal practice repository where I solve and implement various Data Structures and Algorithms problems. I decided to convert this collection into a web-based interface so that anyone can easily browse through my code implementations, solutions, and practice progress in a clean, organized manner.
 
 ### 🎯 Key Features
 
-- **📖 Comprehensive DSA Library**: 40+ carefully implemented algorithms covering arrays, sorting, patterns, hashing, STL, and mathematical operations
-- **🔍 Interactive Code Browser**: Browse code files organized by topics with syntax highlighting
-- **📊 Dynamic Content Generation**: Automated index generation for seamless content management
-- **⚡ Modern Tech Stack**: Built with Next.js 15, React 19, and TypeScript 5 for optimal performance
-- **🎨 Beautiful UI**: Responsive design with Tailwind CSS 4 and modern aesthetics
-- **🔥 Hot Reload Development**: Turbopack integration for lightning-fast development experience
-- **📱 Mobile Responsive**: Works seamlessly across all device sizes
-- **🌟 Syntax Highlighting**: Enhanced code readability with Prism React Renderer
+- **📖 Personal DSA Collection**: 90+ problems and algorithms I've practiced, covering arrays, sorting, patterns, hashing, STL, and mathematical operations
+- **🔍 Easy Code Browsing**: Clean interface to view my code implementations organized by topics with syntax highlighting
+- **📊 Dynamic Content Organization**: Automated index generation to keep my growing practice collection organized
+- **⚡ Modern Web Interface**: Built with Next.js 15, React 19, and TypeScript 5 for smooth browsing experience
+- **🎨 Clean Design**: Responsive design with Tailwind CSS 4 for easy viewing on any device
+- **🔥 Fast Development**: Turbopack integration for quick updates as I add more solutions
+- **📱 Mobile Friendly**: View my code implementations on any device
+- **🌟 Code Highlighting**: Beautiful syntax highlighting with Prism React Renderer for better readability
 
 ## 🛠️ Tech Stack
 
