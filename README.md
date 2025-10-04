@@ -1,4 +1,4 @@
-# 📚 Striver DSA - Data Structures and Algorithms Web Platform
+# 📚 DSA - Data Structures and Algorithms Web Platform
 
 [![License](https://img.shields.io/badge/license-TBD-blue.svg)](#license)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.6-black)](https://nextjs.org)
@@ -12,7 +12,7 @@
 
 ## 🚀 Project Overview
 
-**Striver DSA** is a comprehensive web-based learning platform that showcases a curated collection of Data Structures and Algorithms implementations. The platform provides an intuitive interface to browse, search, and study various DSA concepts with well-documented C++ code examples.
+**DSA** is a comprehensive web-based learning platform that showcases a curated collection of Data Structures and Algorithms implementations. The platform provides an intuitive interface to browse, search, and study various DSA concepts with well-documented C++ code examples.
 
 ### 🎯 Key Features
 
