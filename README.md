@@ -55,8 +55,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/syntax-voyager/striver-dsa.git
-cd striver-dsa
+git clone https://github.com/DestroyerV/DSA.git
+cd DSA
 
 # Install dependencies
 npm install
@@ -217,26 +217,22 @@ We welcome contributions to expand the DSA collection and improve the platform! 
 
 ## 📄 License
 
-**License**: TBD (To Be Determined)
-
-This project's license is currently being finalized. Please check back soon for license details or contact the maintainers for specific usage requirements.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
-  <strong>Built with ❤️ by <a href="https://github.com/syntax-voyager">syntax-voyager</a></strong>
+  <strong>Built with ❤️ by <a href="https://github.com/DestroyerV">Vaibhav Mishra</a></strong>
   <br>
-  <sub>Making Data Structures and Algorithms accessible to everyone</sub>
 </div>
 
 ---
 
 ### 🔗 Quick Links
 
-- [🏠 Homepage](https://github.com/syntax-voyager/striver-dsa)
-- [📚 Documentation](https://github.com/syntax-voyager/striver-dsa/wiki)
-- [🐛 Report Issues](https://github.com/syntax-voyager/striver-dsa/issues)
-- [💡 Feature Requests](https://github.com/syntax-voyager/striver-dsa/issues/new)
+- [🏠 Homepage](https://github.com/DestroyerV/DSA)
+- [🐛 Report Issues](https://github.com/DestroyerV/DSA/issues)
+- [💡 Feature Requests](https://github.com/DestroyerV/DSA/issues/new)
 - [🤝 Contributing Guide](#contributing)
 
 **⭐ Star this repo if you find it helpful!**
